@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Node\Node.cpp" />
+    <ClCompile Include="src\Math\Math.cpp" />
+    <ClCompile Include="src\Input\Input.cpp" />
+    <ClCompile Include="src\Game\Game.cpp" />
+    <ClCompile Include="src\Game\Block.cpp" />
+    <ClCompile Include="src\Game\BlockMng.cpp" />
+    <ClCompile Include="Data.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Node\Node.h" />
+    <ClInclude Include="src\Math\Math.h" />
+    <ClInclude Include="src\Input\Input.h" />
+    <ClInclude Include="src\Console\Console.h" />
+    <ClInclude Include="src\Game\Game.h" />
+    <ClInclude Include="src\Game\Block.h" />
+    <ClInclude Include="src\Game\BlockMng.h" />
+    <ClInclude Include="Data.h" />
+  </ItemGroup>
+</Project>
