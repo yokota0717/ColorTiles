@@ -489,7 +489,7 @@ void Node::renderWithChildren() {
 }
 
 int Node::getChildrenCnt() const {
-	return children_.size();
+	return (int)children_.size();
 }
 
 void Node::sortByPriority() {

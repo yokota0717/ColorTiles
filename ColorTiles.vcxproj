@@ -42,7 +42,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{F6BCC86A-4C35-4515-AAAB-02819C57E0D4}</ProjectGuid>
     <RootNamespace>ColorTiles</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

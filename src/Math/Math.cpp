@@ -1,4 +1,5 @@
 #include "Math.h"
+#include "DxLib.h"
 
 float Math::ToDegree(float radian) {
 	return (radian / Math::PI)*180.0f;
@@ -8,6 +9,12 @@ float Math::ToRadian(float degree) {
 }
 float Math::Gravity(int onemeter) {
 	return ((9.8f / 60) / 60)*onemeter;
+}
+void Math::DrawBox2D(const Math::Box2D & b, int color, bool fill) {
+	DrawBox((int)b.x, (int)b.y, (int)b.x + (int)b.w, (int)b.y + (int)b.h, color, fill);
+}
+void Math::DrawBox2D(const Math::Vec& v, const float width, const float height, int color, bool fill) {
+	DrawBox((int)v.x, (int)v.y, int(v.x + width), int(v.y + height), color, fill);
 }
 
 //Vec-------------------------------------------------------------------------------------------

@@ -16,5 +16,5 @@ public:
 	void render() override;
 
 	void setColor(const int red, const int green, const int blue);
-	void setPos(Math::Vec& pos);
+	void setPos(const Math::Vec& pos);
 };

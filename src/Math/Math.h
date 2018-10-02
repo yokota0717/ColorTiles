@@ -17,6 +17,10 @@ namespace Math {
 	//重力
 	float Gravity(int onemeter);
 
+	//! 矩形描画関数(DXライブラリの関数をラッピング)
+	void DrawBox2D(const Box2D& b, int color, bool fill);
+	void DrawBox2D(const Vec& v, const float width, const float height,  int color, bool fill);
+
 
 	//ベクトルクラス
 	class Vec {
